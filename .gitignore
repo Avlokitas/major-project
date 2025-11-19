@@ -1,0 +1,16 @@
+# Ignore numpy generated dataset
+data/*.npy
+
+# Ignore preprocessed files
+data/preprocessed/*
+
+# Ignore models
+models/*.keras
+models/*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
